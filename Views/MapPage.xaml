@@ -5,5 +5,7 @@
 			 x:Class="BankTest.Views.MapPage"
 			 x:DataType="vm:MapViewModel">
 
-    <Map x:Name="TheMap" IsShowingUser="True"/> <!-- use another map api -->
+    <!--<Map x:Name="TheMap" IsShowingUser="True"/> --><!-- use another map api -->
+    
+    
 </ContentPage>

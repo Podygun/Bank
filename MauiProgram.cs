@@ -1,4 +1,6 @@
-﻿namespace BankTest;
+﻿using SkiaSharp.Views.Maui.Controls.Hosting;
+
+namespace BankTest;
 
 public static class MauiProgram
 {
@@ -7,7 +9,8 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
-			.UseMauiCommunityToolkit()
+            .UseSkiaSharp(true)
+            .UseMauiCommunityToolkit()
 			.UseMauiMaps()
 			.ConfigureFonts(fonts =>
 			{
